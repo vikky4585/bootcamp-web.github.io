@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="container-fluid">    
+        <div class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Lattitude</a>
+                    </div>            
+                    <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" >
+                                            <li><a href="max-temp.html">Max Temperature</a></li>
+                                            <li><a href="humidity.html">Humidity</a></li>
+                                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                                            <li><a href="windspeed.html">Windspeed</a></li>            
+                                    </ul>                    
+                            </li>    
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+                </div>
+            </div>
+
+            <div id="c-container" class="container-fluid"  >
+                <div class="row">
+                    <div class="col-lg-6">
+                            <h2 id="c-header">Windspeed</h2>
+                            <hr>
+                    </div>
+
+                    <div class="col-lg-6">
+                            <h2 id="c-header">Visualizations</h2>
+                            <hr>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="LatVsWindspeed.png"><img src="LatVsWindspeed.png" alt="" class="img-fluid" style="width:60%" float="left"></a>
+                        <p></p>
+                        <p>The trade winds (also called trades) are the prevailing pattern of easterly surface winds found in the tropics towards the Earth's equator. The trade winds blow predominantly from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere. The trade winds act as the steering flow for tropical cyclones that form over the world's oceans. Trade winds also steer African dust westward across the Atlantic Ocean into the Caribbean, as well as portions of southeast North America. 
+                                A monsoon is a seasonal prevailing wind that lasts for several months within tropical regions. The term was first used in English in India, Bangladesh, Pakistan, and neighboring countries to refer to the big seasonal winds blowing from the Indian Ocean and Arabian Sea in the southwest bringing heavy rainfall to the area. Its poleward progression is accelerated by the development off a heat low over the Asian, African, and North American continents during May through July, and over Australia in December.
+
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="image-fluid">
+                            <a href="max-temp.html"><img src="LatVsTemp.png" style="width:100%"></a>
+                            <hr>
+                            <a href="humidity.html"><img src="LatVsHumidity.png" style="width:100%"></a>
+                                        
+                    </div>
+                                
+
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="image-fluid">
+                            <a href="cloudiness.html"><img src="LatVsCloudiness.png" style="width:100%"></a>
+                            <hr>
+                            <a href="LatVsWindspeed.png"><img src="LatVsWindspeed.png" style="width:100%"></a>
+
+                    </div>
+
+            </div>
+                        
+
+            </div>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="c-footer">@Copyright Vikas Singh</p>
+                </div>
+            </div>          
+</div>
+</body>

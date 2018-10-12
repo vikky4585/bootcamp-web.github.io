@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="container-fluid">    
+        <div class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Lattitude</a>
+                    </div>            
+                    <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" >
+                                            <li><a href="max-temp.html">Max Temperature</a></li>
+                                            <li><a href="humidity.html">Humidity</a></li>
+                                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                                            <li><a href="windspeed.html">Windspeed</a></li>            
+                                    </ul>                    
+                            </li>    
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+                </div>
+            </div>
+
+            <div id="c-container" class="container-fluid"  >
+                <div class="row">
+                    <div class="col-lg-6">
+                            <h2 id="c-header">Cloudiness</h2>
+                            <hr>
+                    </div>
+
+                    <div class="col-lg-6">
+                            <h2 id="c-header">Visualizations</h2>
+                            <hr>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="LatVsCloudiness.png"><img src="LatVsCloudiness.png" alt="" class="img-fluid" style="width:60%" float="left"></a>
+                        <p></p>
+                        <p>There are three broad bands where Earth’s skies are most likely to be cloudy: a narrow strip near the equator and two wider strips in the mid-latitudes. The band near the equator is a function of the large scale circulation patterns—or Hadley cells—present in the tropics. Hadley cells are defined by cool air sinking near the 30 degree latitude line north and south of the equator and warm air rising near the equator where winds from separate Hadley cells converge. (The diagram here illustrates where Hadley cells are located and how they behave.) As warm, moist air converges at lower altitudes near the equator, it rises and cools and therefore can hold less moisture. This causes water vapor to condense into cloud particles and produces a dependable band of thunderstorms in an area known as the Inter Tropical Convergence Zone (ITCZ).
+
+                                Clouds also tend to form in abundance in the middle latitudes 60 degrees north and south of the equator. This is where the edges of polar and mid-latitude (or Ferrel) circulation cells collide and push air upward, fueling the formation of the large-scale frontal systems that dominate weather patterns in the mid-latitudes. While clouds tend to form where air rises as part of atmospheric circulation patterns, descending air inhibits cloud formation. Since air descends between about 15 and 30 degrees north and south of the equator, clouds are rare and deserts are common at this latitude.
+
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="image-fluid">
+                            <a href="max-temp.html"><img src="LatVsTemp.png" style="width:100%"></a>
+                            <hr>
+                            <a href="humidity.html"><img src="LatVsHumidity.png" style="width:100%"></a>
+                                        
+                    </div>
+                                
+
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="image-fluid">
+                            <a href="LatVsCloudiness.png"><img src="LatVsCloudiness.png" style="width:100%"></a>
+                            <hr>
+                            <a href="windspeed.html"><img src="LatVsWindspeed.png" style="width:100%"></a>
+
+                    </div>
+
+            </div>
+                        
+
+            </div>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="c-footer">@Copyright Vikas Singh</p>
+                </div>
+            </div>          
+</div>
+</body>
